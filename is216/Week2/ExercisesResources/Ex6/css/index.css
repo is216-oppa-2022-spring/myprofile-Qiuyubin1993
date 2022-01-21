@@ -1,0 +1,54 @@
+*
+{
+    margin: 0;
+}
+
+ul
+{
+    padding: 0px; /*Clear the small padding that was rendered under a Unorder List*/
+    background-color: rgb(37, 37, 37);
+    
+}
+
+li 
+{
+    list-style-type: none;
+}
+
+a
+{
+    color: white;
+    /* outline: 1px solid blue; */
+    float:left;
+    width: 150px;
+
+    display:flex;           /* Displays an element as a block-level flex container */
+    align-items: center;    /* Vertically align center */
+    justify-content: center;    /*Horizontally align center */
+}
+
+ul, a
+{
+    /* outline: 2px solid green; */ 
+    height: 30px;
+}
+
+a:hover
+{
+    background-color: rgb(105, 105, 105, 0.2);
+}
+
+
+h2
+{
+    color: red;
+    clear: left;
+}
+
+#messageBoard
+{
+    background-color: cyan;
+    padding: 20px;
+    border: 2px solid grey;
+
+}

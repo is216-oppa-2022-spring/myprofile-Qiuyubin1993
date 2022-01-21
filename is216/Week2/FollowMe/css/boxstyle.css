@@ -1,0 +1,13 @@
+*
+{
+    margin: 0px;
+}
+
+#outerbox
+{
+    border: 2px solid red;
+    /* padding: 0px 0px 0px 20px; /* top right bottom left */
+
+    padding: 50px 30px; /* top bottom & left right */
+}
+
