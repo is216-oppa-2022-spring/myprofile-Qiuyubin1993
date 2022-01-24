@@ -1,0 +1,58 @@
+*
+{
+    margin: 0px;
+
+    cursor: url(../cur/lightsaberblue.cur),default;
+}
+
+body
+{
+    
+    background-image: url(../img/background.jpg);
+	background-position: center top;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* #main
+{
+    outline: 1px solid blue;
+
+} */
+
+body #main
+{
+    outline: 1px solid black;
+}
+
+
+#main 
+{
+    margin: 2px auto 0 auto;
+/* 
+    outline: 1px solid red; */
+    width: 80vw;
+    text-align: center;
+    background: rgb(241, 241, 241);
+    box-shadow: 2px 4px black; 
+}
+
+.profilePhoto
+{
+    width: 100px;
+}
+
+.profileName
+{
+    font-weight: bold;
+}
+
+#content #mainContent 
+{
+    /* outline: 1px solid red; */
+    
+    text-align: left;
+
+    padding: 20px 20px 20px 20px;
+}
